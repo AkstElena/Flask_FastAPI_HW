@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="row">
+        {% for student in students %}
+            <p class="col-12 col-md-6"> {{ student }}<br>
+            </p>
+        {% endfor %}
+    </div>
+
+    </div>
+{% endblock %}
