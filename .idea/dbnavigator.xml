@@ -24,7 +24,11 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" object-ref="schemas/main/tables/users" />
+      <object connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" object-ref="schemas/main/tables/orders" />
+      <object connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" object-ref="schemas/main/tables/products" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" />
@@ -33,9 +37,13 @@
     <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.student" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.book" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.author" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.tasks" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.products" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.grade" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.faculty" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="8a7e0f6c-5b79-4139-913e-5cbcd8ea648a" dataset="main.orders" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -71,7 +79,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="C:\Elena\GeekBrains\Flask_FastAPI\homeworks\instance\hw_8_database.db" schema="main" />
+            <file path="C:\Elena\GeekBrains\Flask_FastAPI\homeworks\database_hw06.db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
